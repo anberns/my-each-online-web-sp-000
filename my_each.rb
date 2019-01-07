@@ -8,5 +8,5 @@ def my_each(array)
   
 end
 
-my_each(["Tim", "Tom", "Stan"]) do
-  puts |i|
+my_each(["Tim", "Tom", "Stan"]) do |value|
+  puts value
