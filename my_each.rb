@@ -7,3 +7,6 @@ def my_each(array)
   array
   
 end
+
+my_each(["Tim", "Tom", "Stan"]) do
+  puts |i|
