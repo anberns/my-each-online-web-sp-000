@@ -8,5 +8,7 @@ def my_each(array)
   
 end
 
+# pass array, do/end block for yield
 my_each(["Tim", "Tom", "Stan"]) do |value|
   puts value
+end
